@@ -1,0 +1,31 @@
+COOKIES WRITEUP:
+  Inspected webpage and went into the website's cookies. Increased the value one by one until reaching the number 18 where the flag was found.
+
+INSPECTOR WRITEUP:
+  Found first part of flag when viewing the source code. Found second part in the Css and third part in the Javascript.
+
+WARMING UP:
+  used https://www.rapidtables.com/convert/number/hex-to-decimal.html to convert hexadecimal to decimal. Flag was decimal number.
+
+BASES:
+  usednhttps://www.base64decode.org/ to decode base 64
+
+CODEBOOK:
+  Used "wget" to download both files, made sure they were on the same place with "ls" then used 'python code.py" to get the flag.
+
+DONT-USE-CLIENT-SIDE:
+  Checked the java script and followed the order of the splits to get the pieces of the flag
+
+FIRST GREP:
+  used grep 'pico' file to find the flag
+
+FIXME1.PY:
+  first used python fixme1.py and it showed an indentation error, fixed it with nano fixme1.py
+
+LOGIN:
+  Inspected javascript and after reading code I inserted this: "cGljb0NURns1M3J2M3JfNTNydjNyXzUzcnYzcl81M3J2M3JfNTNydjNyfQ"
+  on the base64 decoder where the flag was revealed.
+
+LOGON: 
+  Tried different names as usernames. Checked cookies and switched the admin value to "True" which revealed the flag.
+
