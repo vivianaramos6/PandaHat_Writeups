@@ -1,3 +1,9 @@
 **The writeup file for aug27-sep1 was lost**
 
+CRACKME.PY:
+  Used nano to read python script. Found there was a function defined in the script that decodes encrypted messaged. Modified script to call this function with the secret message. Ran the code again
+  and found the flag.
+
+
+
 
