@@ -1,0 +1,25 @@
+Challenges Submitted:
+
+  Forensics:
+    1. Barbara Liskov
+      Used base 64 decoder after using cat on file
+        
+    
+    2. Margaret Hamilton
+       was given a .jpg file, used binwalk on the image to find the flag. The flag was displayed on the photo after the command.
+
+
+    3. Elizabeth Feinler
+    
+
+  Web Exploitation:
+    1. Grace Hopper
+
+
+    2. Radia Perlman
+      following line on search bar gave flag: dns?ip=google.com;ks;strings%20flag.txt
+
+
+  PWN: 
+  1. Sally Ride
+      Inserted provided file on wireshark. Used an octal to text decoder on the numbers that showed up.
