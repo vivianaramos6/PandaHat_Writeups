@@ -1,2 +1,5 @@
 PCAP POISONING:
   used strings trace.pcap | grep -E "pico" to obtain flag.
+HIDEME:
+  downloaded image and used binwalk -e to extract the hidden files in the image. Opened up the directory that
+  showed up and opened the new image found where the flag was displayed.
