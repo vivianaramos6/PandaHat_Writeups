@@ -1,0 +1,2 @@
+PCAP POISONING:
+  used strings trace.pcap | grep -E "pico" to obtain flag.
